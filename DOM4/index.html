@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изменение рамки таблицы</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<label for="thickness">Толщина рамки:</label>
+<input type="text" id="thickness" placeholder="Например: 2px">
+<label for="color">Цвет рамки:</label>
+<input type="text" id="color" placeholder="Например: red">
+<button onclick="changeTableBorder()">Изменить рамку</button>
+<table id="myTable" border="1">
+    <tr>
+        <td>Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+    <tr>
+        <td>Ячейка 3</td>
+        <td>Ячейка 4</td>
+    </tr>
+</table>
+</body>
+</html>
